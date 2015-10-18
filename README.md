@@ -1,12 +1,12 @@
 # unixsocket
 unix socket practise
 
-1. install build-essential
+* Preparation
 ```shell
 sudo apt-get install build-essential
 ```
 
-2. a building series via these commands:
+* Installation
 ```shell
 ./configure
 
@@ -23,8 +23,10 @@ sudo cp lib/unp.h /usr/include
 sudo cp config.h /usr/include
 ```
 
-3. compile sources:
+* Compilation
 ```shell
 cd ./intro  
 gcc daytimetcpcli.c -o daytimetcpcli -lunp 
 ```
+* References
+<http://blog.csdn.net/a649518776/article/details/6724121>
